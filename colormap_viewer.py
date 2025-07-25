@@ -9,7 +9,10 @@ import time
 DEFAULT_COLORMAPS = [
     "viridis", "plasma", "inferno", "magma", "cividis",
     "Greys", "Blues", "RdBu", "seismic", "coolwarm",
-    "tab10", "nipy_spectral"
+    "nipy_spectral", "twilight", "ocean", "jet", "inferno", "magma",
+    "cividis", "viridis_r", "RdBu_r", "inferno_r", "Blues_r",
+    "viridis", "plasma", "seismic", "coolwarm", "twilight", "ocean", "jet",
+    "inferno", "magma", "cividis", "viridis_r",
 ]
 
 def load_data(filepath):
@@ -39,7 +42,7 @@ def plot_colormaps(data, cmap_list=DEFAULT_COLORMAPS):
     for i, cmap in enumerate(cmap_list):
         ax = axes[i]
         im = ax.imshow(data, cmap=cmap)
-        ax.set_title(cmap, fontsize=14, fontweight='bold')
+        ax.set_title(cmap, fontsize=28, fontweight='bold')
         ax.axis("off")
         fig.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
 
