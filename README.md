@@ -58,7 +58,7 @@ pip install numpy matplotlib
 
 ## 範例輸出
 
-'''python
+'''
 import colormap_viewer
 
 # 使用內建範例資料
