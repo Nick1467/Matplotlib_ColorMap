@@ -58,7 +58,7 @@ pip install numpy matplotlib
 
 ## 範例輸出
 
-'''
+‵‵‵
 import colormap_viewer
 
 # 使用內建範例資料
@@ -70,6 +70,6 @@ colormap_viewer.show_colormap_gallery(from_file=False, data=Z)
 
 # 使用檔案總管選擇資料檔案（.npy or .csv）
 colormap_viewer.show_colormap_gallery(from_file=True)
-'''
+‵‵‵
 
 程式會創建一個視窗，展示所選數據在不同 colormap 下的效果，每個 colormap 都包含一個顏色條，方便比較和選擇最適合的視覺化方案。
